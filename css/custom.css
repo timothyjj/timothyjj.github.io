@@ -1,6 +1,8 @@
 body {
     background-color: #fbfbfb;
+    background-image: url("../img/crossword.png");
 }
+/* Background pattern from subtlepatterns.com */
 
 .custom-wrapper {
     background-color: #FFFFF0;
@@ -94,6 +96,11 @@ border-bottom: 5px solid #535db8;
     color:#FFEBAA;
     background-color: #535db8;
     font-weight: bold;
+    text-shadow: 0px 0.5px 0.5px #181818;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;  
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;   
 }
 
 .content {
@@ -105,6 +112,23 @@ border-bottom: 5px solid #535db8;
     background-color: #FFFFF0;
     border-left: #535db8 solid 5px;
     border-bottom: #535db8 solid 2px;
+    max-width: 1000px;
+}
+
+footer {
+    margin-top: 5px;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+}
+
+footer a img:hover {
+  -webkit-filter: brightness(108%);
+  transition: opacity .55s ease-in-out;
+ -moz-transition: opacity .55s ease-in-out;
+ -webkit-transition: opacity .55s ease-in-out;
 }
 
 .custom-brand {
@@ -112,7 +136,8 @@ border-bottom: 5px solid #535db8;
     font-family: 'Candal', sans-serif;
     font-size: 1.6em;
     padding:0px 0px 0px 15px;
-    background-color: #FFFFFf;
+    background-color: #FFFFFF;
+    max-width: 300px;
 }
 
 .custom-brand-capital {
@@ -146,6 +171,7 @@ p {
     color:#FFEBAA;
     background-color: #535db8;
     font-weight: bold;
+    text-shadow: 0px 0.5px 0.5px #181818;
 }
 
 
