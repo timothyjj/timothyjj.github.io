@@ -1,2 +1,7 @@
 name: Timothy Jensen | Web Strategist
 markdown: kramdown
+navigation:
+      - text: Web Strategy
+        url: /web-strategy.html
+      - text: Photography
+        url: /photography.html 

@@ -143,7 +143,9 @@ p {
 }
 
 .current {
-    color: red;
+    color:#FFEBAA;
+    background-color: #535db8;
+    font-weight: bold;
 }
 
 
