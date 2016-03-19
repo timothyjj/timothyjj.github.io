@@ -13,7 +13,8 @@ body {
     -moz-transition: height 0.5s;
     -ms-transition: height 0.5s;
     transition: height 0.5s;
-border-bottom: 5px solid #535db8;
+    border-bottom: 5px solid #535db8;
+    box-shadow: 0px 3px 5px #DEDEDE;
 }
 
 .custom-wrapper.open {
@@ -113,6 +114,7 @@ border-bottom: 5px solid #535db8;
     border-left: #E5E5E5 solid 5px;
     border-bottom: #E5E5E5 solid 2px;
     max-width: 1000px;
+    box-shadow: 3px 3px 5px #F0F0F0;
 }
 
 footer {
@@ -159,6 +161,7 @@ p {
     color: #4d4d4d;
     font-size: 0.9em;
     line-height: 1.4;
+    padding-left: 5px;
 }
 
 .hide,.cloak div,.cloak span,.likert.cloak tbody,.likert.cloak thead{display:none !important}.likert.cloak table{border:none}
@@ -172,6 +175,27 @@ p {
     background-color: #535db8;
     font-weight: bold;
     text-shadow: 0px 0.5px 0.5px #181818;
+}
+
+.skills {
+    list-style: none;
+}
+
+.skill {
+    display: inline-block;
+    margin-left: -34px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid #E5E5E5 1px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #4d4d4d;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.skill:hover {
+    background: #F2F2F2;
 }
 
 
