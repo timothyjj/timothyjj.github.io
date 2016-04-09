@@ -1,6 +1,6 @@
 body {
     background-color: #fbfbfb;
-    background-image: url("../img/crossword.png");
+    background-image: url("/img/crossword.png");
 }
 /* Background pattern from subtlepatterns.com */
 
@@ -198,4 +198,7 @@ p {
     background: #F2F2F2;
 }
 
-
+h2 a {
+    text-decoration: none;
+    color: #535db8;
+}
