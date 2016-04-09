@@ -86,7 +86,7 @@ body {
 .pure-menu-link {
     color:#F39E38;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     text-shadow: 1px 1px 1 #2F4F4F;
     padding-top: 15px;
@@ -139,7 +139,8 @@ footer a img:hover {
     font-size: 1.6em;
     padding:0px 0px 0px 15px;
     background-color: #FFFFFF;
-    max-width: 300px;
+    width: 300px;
+
 }
 
 .custom-brand-capital {
