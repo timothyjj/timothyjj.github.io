@@ -17,12 +17,6 @@ body {
     box-shadow: 0px 3px 5px #DEDEDE;
 }
 
-@media only screen and (min-width: 850px) {
-    .custom-wrapper {
-    margin-left: 100px;
-}
-}
-
 .custom-wrapper.open {
     height: 14em;
 }
@@ -208,9 +202,4 @@ p {
 h2 a {
     text-decoration: none;
     color: #535db8;
-}
-.home-image {
-    max-height: 150px;
-    margin-left: auto;
-    margin-right: auto;
 }
