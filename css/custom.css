@@ -123,6 +123,13 @@ body {
     box-shadow: 3px 3px 5px #F0F0F0;
 }
 
+@media (max-width: 500px) {
+    .content {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
 footer {
     margin-top: 5px;
     margin-right: 15%;
