@@ -1,20 +1,49 @@
 ---
-layout: default2
-title: Timothy Jensen | Web Strategist | Albany, New York
+layout: default
 ---
 
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
 
-        <div class="content">
-        	<div>
-				<img src="fallheadernarrow.jpg" class="home-image pure-img" />
-			</div>
-
-            <h1>I'm a <strong>web strategist</strong> from upstate New York</h1>
-            <h2>specializing in <strong>online advertising</strong> &amp; <strong>web analytics</strong></h2>
-            <p>Based in the Albany, New York, area, I enjoy helping others (and myself) get the most out of the web. I've worked in the digital marketing industry since 2008, when I began to dabble in SEO.</p> 
-
-            <p>Over the course of my career, I've come to focus primarily on online advertising, managing paid search, display, video, and social ads, along with a fine-tuned understanding of web analytics. While not a main skillset, I'm also comfortable with basic web development.
-            </p>
-            
-            <p>Besides working in the online world, I also enjoy capturing the physical world around me with photography. Whether carrying my DSLR or my iPhone, I'm always looking for potential scenic shots or candid photos. When time allows, I'm outside hiking up a mountain or biking on a local trail.</p> 
+        <div>
+          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
         </div>
+      </a>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+  <!-- pagination -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
