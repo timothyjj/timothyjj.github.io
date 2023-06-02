@@ -97,7 +97,7 @@ I'm a paid media marketer with over a decade of experience in the digital market
         type: "textarea",
         label: "Message:",
         name: "message",
-        placeholder: "Share the details of your project or request",
+        placeholder: "Your message here",
       },
       { type: "submit" }      
     ],
