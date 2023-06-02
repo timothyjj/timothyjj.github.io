@@ -73,7 +73,7 @@ I'm a paid media marketer with over a decade of experience in the digital market
 <ul>
 <li>PPC Campaign Audits</li>
 <li>Paid Search/Display/Social Advertising Campaign Setup & Management</li>
-<li>Google Analytics 4 Configuration</li>
+<li>Google Analytics Configuration</li>
 <li>Conversion & Event Tracking Setup through Google Tag Manager</li>
 <li>PPC/Analytics Training for Agency and In-House Teams</li>
 
