@@ -5,7 +5,7 @@ title: Timothy Jensen | Paid Media & Analytics
 author: Timothy Jensen
 description: > 
   Connecting paid media and analytics via over a decade of experience in the digital marketing world
-baseurl: /hello
+baseurl: /
 
 plugins:
   - jekyll-feed
