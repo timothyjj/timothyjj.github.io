@@ -35,7 +35,7 @@ linkedin: timothyjjensen # the part after ("https://www.linkedin.com/in/...")
 
 # By declaring these variables, you can include a CTA section.
 cta: connect # the heading for your CTA section
-cta_description: Connect with me on LinkedIn to get in touch # a description to be desplayed below the heading and above the content
+cta_description: Reach out to discuss your project or question # a description to be desplayed below the heading and above the content
 cta_button: https://www.linkedin.com/in/timothyjjensen/ # a link to an external website or to media
 cta_button_label: contact # the label on the button
 
