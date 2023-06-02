@@ -162,7 +162,7 @@
           <footer style="margin-bottom:8em">
               {% if page.cta_button %}
             <ul class="buttons">
-              <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
+              <li onClick="formbutton('toggleForm')">{{ page.cta_button_label }}</li>
             </ul>
               {% endif %}
           </footer>
@@ -190,6 +190,19 @@
         </ul>
 
 </footer>
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mqkovkje",
+    initiallyVisible: true
+  });
+</script>
 
   </body>
 
