@@ -43,7 +43,7 @@ cta_button_label: contact # the label on the button
 [//]: # (write a bit about yourself here)
 I'm a paid media marketer with over a decade of experience in the digital marketing industry. With both agency and in-house experience, I've worked with a wide range of industries ranging from SMB to enterprise ad spend levels. While I'm well-versed in platforms across the spectrum of online advertising, I find myself particularly drawn to the crossover between analytics and advertising. I enjoy sharing knowledge with the industry at large through writing and speaking.
 
-<p>Online publications where my articles have been featured:
+<p>Online publications that have featured my articles:
 <ul>
   <li><a href="https://searchengineland.com/author/tim-jensen">Search Engine Land</a></li>
   <li><a href="https://www.searchenginejournal.com/author/tim-jensen/">Search Engine Journal</a></li>
@@ -76,4 +76,4 @@ I'm a paid media marketer with over a decade of experience in the digital market
 <li>Google Analytics 4 Configuration</li>
 <li>Conversion & Event Tracking Setup through Google Tag Manager</li>
 <li>PPC/Analytics Training for Agency and In-House Teams</li>
-</p>
+
