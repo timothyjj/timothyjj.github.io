@@ -84,7 +84,7 @@ I'm a paid media marketer with over a decade of experience in the digital market
   /* customize formbutton below*/     
   formbutton("create", {
     action: "https://formspree.io/f/mqkovkje",
-    title: "How can we help?",
+    title: "Get in Touch",
     fields: [
       { 
         type: "email", 
@@ -97,7 +97,7 @@ I'm a paid media marketer with over a decade of experience in the digital market
         type: "textarea",
         label: "Message:",
         name: "message",
-        placeholder: "What's on your mind?",
+        placeholder: "Share the details of your project or request",
       },
       { type: "submit" }      
     ],
