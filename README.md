@@ -1,113 +1,94 @@
-<h1 align="center">
-  <br>
-  <img src="/images/reverie-text.png" alt="Reverie" width="200"/>
-  <br>
-  <p align="center">
-  <a href="https://ko-fi.com/Y8Y2QC9Y"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" width="200"/></a>
-  </p>
-</h1>
+# hello: a minimalist template for personal websites on Github Pages
 
-Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for my blog.
+## Why **hello**?  
+  
+**hello** has a simple goal: to make GitHub Pages accessible to everyone.  
+  
 
-> [Theme demo](https://www.amitmerchant.com/reverie/introducing-reverie-jekyll-theme/)
+**hello** is a minimalist template that lets you design a beautiful website or portfolio on GitHub Pages - without installing a Ruby
+development environment, learning to use Jekyll, **or even typing a single line of code**. It's ideal for GitHubbers
+who want to start building their personal website on [GitHub Pages](https://pages.github.com/), but maybe aren't so familiar with web development.
+  
 
-This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https://pages.github.com) without even setting up a local environment.
+The default layout of **hello** is a streamlined single page with three major customizable sections: a required "about" section, an optional portfolio, and an optional CTA. Using [Liquid](https://shopify.github.io/liquid/) variables declared by in the config and index files, **hello** offers an easy-to-use design where all customizations necessary for a basic personal website can be written in [Markdown](https://www.markdownguide.org/basic-syntax/). **hello** is adapted from [Twenty](https://html5up.net/twenty), a responsive, mobile-friendly theme by HTML5 Up.  
 
-![](/images/reverie-demo.png)
 
-|  Responsiveness            |  Search | Categories |
-|---------------------|----------------------|----------------------|
-|![Responsiveness](/images/mobile-demo.png) | ![search](/images/search.png) | ![categories](/images/categories.png) |
+Demo **hello** [here](https://saragong.github.io/hello/).
 
-## Features overview
+## Getting started
+To use **hello**, follow these steps:
 
-- Clean and minimal design
-- Single column post layout
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies come built-in
-- Markdown blogging
-- Supports [Pullquotes](https://en.wikipedia.org/wiki/Pull_quote)
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Social media icons
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Blog with pagination
-- Categorize posts out-of-the box
-- RSS Feed
-- Built-in sitemap
+1. Click the green "Use this template" button on the main page of the **hello** repository.
 
-> <p><i>Like this theme?</i> Become a patreon to support my open source work <p>
-> <a href="https://www.patreon.com/amitmerchant"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160"></a>
+2. Follow the instructions to create a new repository from **hello**, setting the repository name as "*your-username*.github.io".
 
-## Using Reverie on GitHub Pages
+3. Under **Settings** for this new repo, navigate to the **GitHub Pages** section and ensure that GitHub Pages is enabled for the `master` branch.
 
-### 1. Fork Reverie to your User Repository
+4. On the command line, clone this new repository to your local directory.
 
-Fork this repository, then rename the repository to `yourgithubusername.github.io`.
-
-Alternatively, you can click the [`Use this template`](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
-
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2).
-
-### 2. Customize and view your site
-
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
-
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with Jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
-
-### 3. Publish your first blog post
-
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
-
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
-
-## Using Categories in Reverie
-
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
-
-For adding single category:
-
-```md
-categories: JavaScript
+```
+$ git clone https://github.com/*your-username*/*your-username*.github.io.git
 ```
 
-For adding multiple categories:
+5. Navigate into the project folder, open the `_config.yml` and `index.md` files in your preferred text editor, and start customizing your website!
 
-```md
-categories: [PHP, Laravel]
+6. When you're ready to see your work, commit your changes to the remote repo.
+```
+$ git add .
+$ git commit -m "first commit"
+$ git push origin master
 ```
 
-The categorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
+7. In just a few moments, Github will build your shiny new website at "https://*your-username*.github.io/".
 
-## Pagination
+## Usage
 
-Pagination of posts in Reverie works out-of-the-box. You only need to specify the number of posts you want on a single page in `_config.yml` and Reverie will take care of the rest.
+### The following variables are required:
 
-```yml
-paginate: 6
-```
+`_config.yml`:
+* `title`
+* `author`
+* `description`
+* `baseurl`  
 
-## RSS
+`index.md`:
+* `banner_title`
+* `banner_subtitle`
+* `background_image`
 
-The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed.xml).
+### The following variables are optional:
+`index.md`:
+* `favicon`
+* `facebook_username`
+* `twitter_username`
+* `github_username`
+* `linkedin`
+* `google_analytics` (your Google Analytics Tracking ID)
 
-## Sitemap
+By declaring these variables, you can include a button that links to an external website or to media.
+* `about_button` (the link)
+* `about_button_label` (the label on the button)
 
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
+By declaring these variables, you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. In addition, you must 1) create an HTML file in the_includes folder for each project with the text you'd like to display, and 2) create a YAML file in the _data folder describing how each project should be shown and categorized. See `/includes/example.html` and `/_data/work.yml` for examples.
+* `portfolio` (the heading for your portfolio and title of your YAML file)
+* `portfolio_description` (a description to be displayed below the heading and above the content)
 
-## Emailware
-Reverie is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this theme or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+By declaring these variables, you can include a CTA section.
+* `cta` (the heading for your CTA section)
+* `cta_description` (a description to be displayed below the heading and above the content)
+* `cta_button` (a link to an external website or to media)
+* `cta_button_label` (the label on the button)
 
-## The name?
+## Additional Information
+Created by [Sara Gong](https://saragong.github.io/), University of Southern California.  
 
-reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><sup>/ˈrɛv(ə)ri/</sup> 
+This work is licensed under the MIT License, which lets you use, modify, and publish adaptations of this template free of charge and without restriction, as long as you preserve all copyright notices and licenses.  
 
+This original theme, of which this is an adaptation, is licensed by HTML5 Up under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).  
 
-## License
+The images from the demo website are from [Unsplash](https://unsplash.com/).
 
-MIT
+## Theme Information
+Twenty by HTML5 UP  
+html5up.net | @n33co  
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
