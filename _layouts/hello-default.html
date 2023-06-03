@@ -150,13 +150,13 @@
         {% if page.cta %}
       <section class="cta" id="{{ page.cta }}" 
       {% if page.background_image %}
-      style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover; opacity: 0.5;"
+      style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover"
       {% endif %}>   
           <header class="major">
             <h2>{{ page.cta }}</h2>
           </header>
           {% if page.cta %}
-          <p style="padding: 0em 1em; text-align: center; opacity: 1.0">{{ page.cta_description }}</p>
+          <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
           {% endif %}
           <footer style="margin-bottom:8em">
               {% if page.cta_button %}
