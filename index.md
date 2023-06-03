@@ -6,7 +6,7 @@ layout: hello-default
 # these variables are required -------------------------------
 banner_title: Timothy Jensen
 banner_subtitle: Connecting Paid Media & Analytics
-background_image: /images/lakegeorge2.jpg
+background_image: /images/buck.jpg
 
 # all of the following variables are optional -----------------
 page_url: # only include this variable if you aren't building the page to your primary domain 
