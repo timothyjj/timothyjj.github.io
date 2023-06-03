@@ -18,7 +18,7 @@ page_url: # only include this variable if you aren't building the page to your p
 twitter_username: timothyjjensen # # your twitter handle
 linkedin: timothyjjensen # the part after ("https://www.linkedin.com/in/...")
 # facebook_username: <-- your facebook username (the part after "https://www.facebook.com/...")
-# google_analytics: <-- your google analytics Tracking ID
+google_analytics: G-8TPC6ECDMD
 
 # By declaring these variables, you can include a button that links to an external website or to media.
 # about_button: https://github.com/saragong/hello # the link
