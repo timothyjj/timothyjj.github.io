@@ -56,13 +56,15 @@ I'm a paid media marketer with over a decade of experience in the digital market
 <ul>
   <li>SMX (Search Marketing Expo)</li>
   <li>HeroConf</li>
+  <li>BrightonSEO San Diego</li>
   <li>PRSA Digital Summit</li>
-  <li>eMarketing Virtual Summit</li>
+  <li>eMarketer Virtual Summit</li>
   <li><a href="https://hs.optmyzr.com/unlevel-hub/timothy-jensen" target="_blank">Optmyzr UnLevel</a></li>
   <li><a href="https://www.youtube.com/watch?v=gBoPtazUBGs" target="_blank">Optmyzr Town Hall</a></li>
   <li><a href="https://edgeofthewebradio.com/seo-podcast/ppc-more-than-meets-the-roi-tim-jensen/" target="_blank">Edge of the Web podcast</a></li>
   <li><a href="https://iamazeemdigital.com/blog/tim-jensen-podcast-interview/" target="_blank">Azeem Digital Asks podcast</a></li>
   <li><a href="https://www.theagentsofchange.com/tim-jensen/" target="_blank">Agents of Change podcast</a></li>
+  <li><a href="https://www.youtube.com/watch?v=A2RgHn9Da4U" target="_blank">eMarketing Association podcast</a></li>
   <li><a href="https://www.semrush.com/webinars/marketing-challenges-for-companies-depending-on-where-they-are-in-the-cycle/" target="_blank">Semrush webinar</a></li>
 </ul>
 </p>
